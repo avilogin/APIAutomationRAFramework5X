@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb1c2cc7-65ff-44db-91de-d1c18f69328a" name="Changes" comment="Initial project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/endpoints/APIConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/PayloadManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payloads/pojos/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payloads/pojos/BookingDates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payloads/pojos/BookingRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/UtilFromExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/05a26673-8d9f-4e24-9bbd-e5257b4efdbf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/07694a9f-f03b-4cf9-ab28-fbc116c76ff1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/28062606-e30d-41ef-9add-49176d53be89-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4b55c869-848d-4c78-9c7a-9e62c3e68a33-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4e2b7c22-daaa-43e8-88bc-18f9af2c59ca-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aea8a31d-73ea-4d22-a374-5e39d2d1acb6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cc95d749-ef68-499a-9f78-fbcc7322dfea-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ed17a08e-bc8d-48e1-9d05-1d9899a39fa8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TestNGXMLs/testng_Post.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/actions/AssertActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/CreateBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Credentials.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/endpoints/APIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/endpoints/APIConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/PayloadManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +43,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2dBn85uYotsN25ttTVk4QWTGcc7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,19 +60,48 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CreateBooking.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Documents for Study/Automation class/JavaPrograms/APIAutomationRAFramework5X/src/main/java/org/example/payloads/pojos"
+    "last_opened_file_path": "D:/Documents for Study/Automation class/JavaPrograms/APIAutomationRAFramework5X"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents for Study\Automation class\JavaPrograms\APIAutomationRAFramework5X\src\test\resources" />
       <recent name="D:\Documents for Study\Automation class\JavaPrograms\APIAutomationRAFramework5X\src\main\java\org\example\payloads\pojos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents for Study\Automation class\JavaPrograms\APIAutomationRAFramework5X\src\test\TestNGXMLs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.utils" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CreateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRAFramework5X" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.CreateBooking" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CreateBooking" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
