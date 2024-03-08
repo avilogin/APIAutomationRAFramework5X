@@ -3,9 +3,14 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
           name="D:/Documents for Study/Automation class/JavaPrograms/APIAutomationRAFramework5X">
-
-            <packages>
-                <package name = "org.example.tests.Integration.Integration002"></package>
-            </packages>
+        <classes>
+            <class name = "org.example.tests.Integration.Integration002">
+            </class>
+        </classes>
+        <groups>
+            <run>
+                <include name = "P0"></include>
+            </run>>
+        </groups>
     </test>
 </suite>
