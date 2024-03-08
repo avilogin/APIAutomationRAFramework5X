@@ -1,0 +1,1 @@
+{"uuid":"8cc20d0c-1331-4df7-9571-9325e62d15bc","name":"APIAutomationRAFramework5X","children":["bb8f7a31-8597-4331-b84f-8a4c33cd9d95"],"befores":[{"name":"setConfig","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1709884939495,"stop":1709884940298}],"afters":[],"start":1709884939454,"stop":1709884944103}

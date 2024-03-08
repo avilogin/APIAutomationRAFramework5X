@@ -1,7 +1,8 @@
-package org.example.payloads.pojos;
+package org.example.payloads.response;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import org.example.payloads.pojos.Booking;
 
 
 public class BookingRes {

@@ -7,9 +7,12 @@ import io.restassured.RestAssured;
 import org.example.base.BaseTest;
 import org.example.endpoints.APIConstants;
 import org.example.modules.PayloadManager;
+import org.example.payloads.response.BookingRes;
 import org.testng.annotations.Test;
 import io.qameta.allure.Description;
 import io.restassured.response.Response;
+import static org.assertj.core.api.Assertions.*;
+import org.example.payloads.response.BookingRes;
 
 import static io.restassured.RestAssured.requestSpecification;
 
@@ -27,7 +30,19 @@ public class CreateBooking extends BaseTest {
                 .when().body(PayloadManager. createPayload()).post();
 
         validatableResponse = response.then().log().all();
+        BookingRes bookingRespons = payloadManager.bookingResponseJava(response.asString());
         validatableResponse.statusCode(200);
+
+
+        //AssertJ Assertions
+        assertThat(bookingRespons.getBookingid()).isNotNull();
+        assertThat(bookingRespons.getBooking().getFirstname()).isNotNull().isNotBlank();
+        assertThat(bookingRespons.getBooking().getFirstname()).isEqualTo("Avijeet");
+
+        //TestNG Validations
+        assertActions.verifyStatusCode(response);
+
+
 
     }
 }

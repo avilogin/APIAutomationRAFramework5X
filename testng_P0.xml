@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Documents for Study/Automation class/JavaPrograms/APIAutomationRAFramework5X">
+
+            <packages>
+                <package name = "org.example.tests.Integration.Integration002"></package>
+            </packages>
+    </test>
+</suite>

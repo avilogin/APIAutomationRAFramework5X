@@ -9,6 +9,21 @@
                     <include name="postCreateBooking"/>
                 </methods>
             </class>
+            <class name="org.example.tests.Integration.Integration001">
+                <methods>
+                    <include name="createBooking"/>
+                    <include name="testVerifyBookingId"/>
+                </methods>
+            </class>
+            <class name="org.example.tests.Integration.Integration002">
+                <methods>
+                    <include name="getToken"/>
+                    <include name="CreateBooking"/>
+                    <include name="updateBooking"/>
+                    <include name="deleteBooking"/>
+                    <include name="verifyBooking"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
