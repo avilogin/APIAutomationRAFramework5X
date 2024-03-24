@@ -9,7 +9,7 @@
         </classes>
         <groups>
             <run>
-                <include name = "P0"></include>
+                <include name = "Avijeet"></include>
             </run>>
         </groups>
     </test>

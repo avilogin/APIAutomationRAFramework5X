@@ -24,6 +24,7 @@ public class BaseTest {
 
     @BeforeTest(alwaysRun = true)
     public void setConfig() {
+        System.out.println("I am able to run");
         payloadManager = new PayloadManager();
         assertActions = new AssertActions();
         requestSpecification = new RequestSpecBuilder()

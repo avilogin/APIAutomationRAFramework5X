@@ -11,7 +11,7 @@ import org.example.payloads.pojos.TokenResponse;
 import org.example.payloads.response.BookingRes;
 
 public class PayloadManager {
-    Gson gson;
+    static Gson gson;
 
 
     public static String createPayload()
@@ -62,7 +62,7 @@ public class PayloadManager {
 
     }
 
-    public Booking bookingResponsePUTReqJava(String responseString){
+    public  Booking bookingResponsePUTReqJava(String responseString){
         gson = new Gson();
         Booking booking;
         booking = gson.fromJson(responseString,Booking.class);

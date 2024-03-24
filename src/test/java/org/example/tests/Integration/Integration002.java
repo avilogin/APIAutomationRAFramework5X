@@ -15,14 +15,14 @@ public class Integration002 extends BaseTest {
     String token;
     String BookingIdPojo;
 
-    @Test(groups = "P0")
+    @Test(groups = "Avijeet")
     public void getAuthToken()
     {
         assertThat("avijeet").isEqualTo("avijeet");
 
     }
 
-    @Test(groups = "P0")
+    @Test(groups = "Avijeet")
     public void CreateBooking()
     {
 
@@ -49,7 +49,7 @@ public class Integration002 extends BaseTest {
     }
 
 
-    @Test(groups = "P0")
+    @Test(groups = "Avijeet")
     public void updateBooking()
     {
         requestSpecification.basePath(APIConstants.CREATE_UPDATE_BOOKING_URL + "/" + BookingIdPojo);
@@ -59,13 +59,13 @@ public class Integration002 extends BaseTest {
         validatableResponse = response.then().log().all();
         //validatableResponse.body("firstname", Matchers.is("Amit"));
 
-//        Booking booking = payloadManager.bookingResponsePUTReqJava(response.asString());
+        //Booking booking = payloadManager.bookingResponsePUTReqJava(response.asString());
 //        assertThat(booking.getFirstname()).isEqualTo("Amit");
 //        assertThat(booking.getLastname()).isEqualTo("Dutta");
     }
 
 
-    @Test(groups = "P0")
+    @Test(groups = "Avijeet")
     public void deleteBooking()
     {
         requestSpecification.basePath(APIConstants.CREATE_UPDATE_BOOKING_URL + "/" + BookingIdPojo).cookie("token",token);
@@ -76,13 +76,14 @@ public class Integration002 extends BaseTest {
     }
 
 
-    @Test(groups = "P0")
+    @Test(groups = "Avijeet")
     public void verifyBooking()
     {
        requestSpecification.basePath(APIConstants.CREATE_UPDATE_BOOKING_URL + "/" + BookingIdPojo);
         validatableResponse = RestAssured.given().spec(requestSpecification)
                 .when().get().then().log().all();
         validatableResponse.statusCode(404);
+
 
 
     }
