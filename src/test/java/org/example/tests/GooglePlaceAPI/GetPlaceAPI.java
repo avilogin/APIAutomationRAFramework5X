@@ -12,7 +12,7 @@ public class GetPlaceAPI {
     Response res;
 
     ValidatableResponse valRes;
-    String placeId = "9efff5b43f41b5c5dc54795859b7737e";
+    String placeId = "b6aed79dfb4fc26b5eb92eebc7f1246d";
 
     @Test
     public void getPlace()
