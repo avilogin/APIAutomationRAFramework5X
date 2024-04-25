@@ -17,7 +17,7 @@
             </class>
             <class name="org.example.tests.Integration.Integration002">
                 <methods>
-                    <include name="getAuthToken"/>
+                    <include name="getToken"/>
                     <include name="CreateBooking"/>
                     <include name="updateBooking"/>
                     <include name="deleteBooking"/>
